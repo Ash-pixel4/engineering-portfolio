@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AV Meter Guide</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV Meter Field Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #38bdf8;
+        }
+        h2 {
+            color: #facc15;
+            margin-top: 30px;
+        }
+        .section {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>AV Meter Field Reference</h1>
 
-    <h2>Voltage (DC)</h2>
-    <p>Set dial to V⎓. Connect black to COM, red to VΩ port.</p>
+<h1>AV Meter Field Reference</h1>
+<p>Industrial Measurement Quick Guide</p>
 
-    <h2>Voltage (AC)</h2>
-    <p>Set dial to V~. Ensure correct range before measuring.</p>
+<div class="section">
+    <h2>DC Voltage</h2>
+    <p>Set dial to V⎓. Black lead to COM, red lead to VΩ port.</p>
+</div>
 
+<div class="section">
+    <h2>AC Voltage</h2>
+    <p>Set dial to V~. Confirm expected range before measurement.</p>
+</div>
+
+<div class="section">
     <h2>Resistance</h2>
-    <p>Power OFF circuit before measuring resistance.</p>
+    <p>Power OFF the circuit before measuring resistance.</p>
+</div>
 
+<div class="section">
     <h2>Continuity</h2>
-    <p>Beep indicates closed circuit.</p>
+    <p>Audible beep indicates closed circuit path.</p>
+</div>
+
 </body>
 </html>
